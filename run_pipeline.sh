@@ -119,3 +119,4 @@ tail -n +2 "$KMERFINDER_CSV" | while IFS=$'\t' read -r filename species ncbi_ass
     fi
 done
 
+python3 stsm.py
